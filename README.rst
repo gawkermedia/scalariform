@@ -165,7 +165,9 @@ Default: ``false``
 
 Align class/function parameters (modifiers and name, type, and defaults) in three columns.
 
-For example, if ``false``, then::
+For example, if ``false``, then:
+
+.. code:: scala
 
   class Person(name: String,
     age: Int = 24,
